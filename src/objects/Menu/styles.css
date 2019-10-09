@@ -1,0 +1,22 @@
+.menu-hamburguer {
+  width: 25px;
+  height: 0;
+  border-bottom: 3px solid #707070;
+  cursor: pointer;
+}
+
+.menu-hamburguer::before {
+  content: "";
+  display: block;
+  width: 25px;
+  transform: translateY(5px);
+  border-bottom: 3px solid #707070;
+}
+
+.menu-hamburguer::after {
+  content: "";
+  display: block;
+  width: 25px;
+  transform: translateY(7px);
+  border-bottom: 3px solid #707070;
+}
