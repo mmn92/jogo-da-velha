@@ -1,0 +1,12 @@
+.header {
+  padding: 20px 35px;
+}
+
+.header > .logo {
+  margin-right: 75px;
+  vertical-align: top;
+}
+
+.header > .menu-hamburguer {
+  float: right;
+}
