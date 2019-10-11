@@ -1,12 +1,15 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px 35px;
 }
 
-.header > .logo {
-  margin-right: 75px;
-  vertical-align: top;
+.header > .sobre {
+  margin-left: auto;
+  margin-right: 10px;
 }
 
-.header > .menu-hamburguer {
-  float: right;
+.header > .menu {
+  width: 25px;
 }
