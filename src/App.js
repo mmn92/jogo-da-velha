@@ -1,17 +1,17 @@
 import React from "react";
 
-import Header from "./components/Header";
-import Board from "./objects/Board";
-import Symbol from "./objects/Symbol";
+import "./App.css";
 
-function App() {
+import Header from "./components/Header";
+import BoardGrid from "./components/BoardGrid";
+
+const App = () => {
   return (
-    <>
+    <main className="app">
       <Header />
-      <Board />
-      <Symbol symbol="O" />
-    </>
+      <BoardGrid />
+    </main>
   );
-}
+};
 
 export default App;

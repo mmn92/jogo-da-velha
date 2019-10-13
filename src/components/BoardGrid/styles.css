@@ -1,0 +1,18 @@
+.board {
+  padding: 15px;
+}
+
+.board-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  background-color: #707070;
+}
+
+.board-grid > .item {
+  display: flex;
+  justify-content: center;
+}
